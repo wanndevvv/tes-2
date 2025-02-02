@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html {
+            height: 3000px;
+        }
+
+        .wave-divider {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .wave-divider svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 60px;
+        }
+
+        @media (min-width: 768px) {
+            .wave-divider svg {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-[#EEEEEE]">
+    <section class="bg-[#5D8736] py-12 sm:py-20">
+        <div class="container mx-auto px-4">
+            <div class="w-full px-4 mb-5">
+                <h1
+                    class="font-poppins text-5xl font-bold bg-gradient-to-tr from-[#A7D477] via-[#F4FFC3] to-[#F9F6E6] bg-clip-text text-transparent">
+                    Ti<span class="font-poppins font-bold text-3xl">Vote</span>
+                </h1>
+                <p class="font-poppins font-bold text-lg text-[#F4FFC3] mb-4">
+                    Memilih menjadi mudah, jujur, dan Akurat!
+                </p>
+                <a href="" class="bg-[#F4FFC3] py-1 mb-2 px-3 text-sm font-poppins font-bold rounded-sm text-green-800
+                hover:bg-green-800 hover:text-[#F4FFC3] transition ease-in-out duration-500">
+                    Login untuk Memilih
+                </a>
+            </div>
+            <div class="w-full px-4">
+                <img src="./img/talk-b.gif" class="w-56" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="wave-divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="fill-[#5D8736]"></path>
+        </svg>
+    </div>
+
+    <section class="py-20 mb-32">
+        <div class="container mx-auto px-4">
+            <div class="w-full text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class=" text-xl font-bold font-poppins text-center mb-3">Perhatikan Suaramu!
+                </h2>
+                <p class="text-center text-gray-700 text-sm font-poppins">Kamu hanya memiliki satu kali kesempatan untuk
+                    memilih, gunakan
+                    suaramu dengan baik</p>
+            </div>
+            <div class="grid grid-cols-1 gap-4 p-4">
+                <div class="font-jakarta h-56 flex flex-col items-center justify-center text-center px-3 py-2 border-2 hover:border-3 transition ease-in-out duration-300 hover:border-green-800 border-green-800 rounded-tl-2xl rounded-br-2xl"
+                    data-aos="fade-right">
+                    <h3 class="font-bold mb-5 text-lg text-gray-600">Hari Pemilihan</h3>
+                    <a href="" class="text-xl mb-2"><i class="fa-solid fa-calendar-day fa-bounce fa-2xl"
+                            style="color: #016630;"></i></a>
+                    <p class="font-semibold">Pemilihan akan dilakukan pada tanggal yang telah di tentukan</p>
+                </div>
+                <div class="font-jakarta h-56 flex flex-col items-center justify-center text-center px-3 py-2 border-2 hover:border-3 transition ease-in-out duration-300 hover:border-green-800 border-green-800 rounded-tl-2xl rounded-br-2xl"
+                    data-aos="fade-left">
+                    <h3 class="font-bold mb-5 text-lg text-gray-600">Pengecekan Suara</h3>
+                    <a href="" class="text-xl mb-2"><i class="fa-solid fa-check-to-slot fa-beat-fade fa-2xl"
+                            style="color: #016630;"></i></a>
+                    <p class="font-semibold">Melakukan pengecekan dan merekap suara pemilihan dari setiap kandidat</p>
+                </div>
+                <div class="font-jakarta h-56 flex flex-col items-center justify-center text-center px-3 py-2 border-2 hover:border-3 transition ease-in-out duration-300 hover:border-green-800 border-green-800 rounded-tl-2xl rounded-br-2xl"
+                    data-aos="fade-up-right">
+                    <h3 class="font-bold mb-5 text-lg text-gray-600">Pengumuman Hasil Pemilihan</h3>
+                    <a href="" class="text-xl mb-2"><i class="fa-solid fa-bullhorn fa-shake fa-2xl"
+                            style="color: #016630;"></i></a>
+                    <p class="font-semibold">Pengumuman Hasil berdasarkan pemilihan yang telah dilaksanakan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4">
+            <div class="w-full relative flex flex-col items-center">
+                <img src="./img/b-1.png" class="absolute rounded-sm z-0 shadow-xl shadow-gray-500" alt="">
+                <img src="./img/b-3.png" class="absolute z-20 w-60 h-56 rounded-md shadow-xl shadow-gray-500 -top-6"
+                    alt="">
+                <img src="./img/b-4.png" class="absolute z-30 w-40 h-80 -top-16 rounded-md shadow-xl shadow-gray-500"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
